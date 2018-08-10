@@ -7,6 +7,14 @@ git pull
 git branch -a
 git checkout -b 分支名 origin/分支名
 
+# 将本地的 gitlab 项目同步到 github 的分支上
+  要保证 github 分支名与 gitlab 上的分支同名
+1, 添加github 项目的 url  eg:https://github.com/slightech/MYNT-EYE-SDK-2.git
+   git remote hub https://github.com/slightech/MYNT-EYE-SDK-2.git 
+	 hub 为仓库地址的别名 origin 为默认 git remote -v 查看仓库列表
+2, git pull hub xxx
+3, git push hub xxx
+
 
 # 使用终端命令行将本地项目上传到Github
 https://blog.csdn.net/fishball1/article/details/52020305
