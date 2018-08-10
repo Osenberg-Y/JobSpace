@@ -1,0 +1,34 @@
+git放弃修改，强制覆盖本地代码:
+git fetch -all
+git reset --hard origin/master
+git pull
+
+# 切换分支
+git branch -a
+git checkout -b 分支名 origin/分支名
+
+
+# 使用终端命令行将本地项目上传到Github
+https://blog.csdn.net/fishball1/article/details/52020305
+
+# CMakeList.txt 引用第三方库文件
+link_directories("库文件所在目录")
+link_libraries("第三方库文件名 去掉lib 和 .so")
+
+真实场景的双目立体匹配（Stereo Matching）获取深度图详解
+https://www.cnblogs.com/riddick/p/8486223.html
+
+计算机视觉基础1--视差与深度信息
+http://www.360doc.com/content/14/0205/15/10724725_349968116.shtml
+
+深度图转点云原理
+https://www.cnblogs.com/cv-pr/p/5719350.html
+
+【OpenCV】立体匹配算法 StereoBM/StereoSGBM/StereoVar
+https://blog.csdn.net/taily_duan/article/details/52165458
+
+单目相机如何的到深度
+https://blog.csdn.net/fb_help/article/details/79801682
+
+根据视差图发布点云
+https://blog.csdn.net/misandao2014/article/details/80666367
