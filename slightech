@@ -40,3 +40,10 @@ https://blog.csdn.net/fb_help/article/details/79801682
 
 根据视差图发布点云
 https://blog.csdn.net/misandao2014/article/details/80666367
+
+MYNTEYE-D 硬件设计信息：
+IMU 硬件时间戳单位 ： 10万分之一秒 即 10微秒(us)
+IMU vid pid 0483  5720
+IMU 数据发送频率不一定
+
+双目设备类型默认  PUMA
